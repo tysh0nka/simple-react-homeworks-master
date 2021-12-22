@@ -1,0 +1,63 @@
+.someClass {
+    background-color: #236b7c;
+}
+
+
+.affair {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 24px;
+    width: 300px;
+    margin: 10px 2px;
+    color: white;
+}
+.text1 {
+    position: absolute;
+    left: 20px;
+}
+.text2 {
+position: absolute;
+    left: 120px;
+}
+
+
+
+.affair button {
+    position: absolute;
+    right: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px;
+    color: #555555;
+
+    width:80px;
+
+    font-size: 14px;
+    text-align:center;
+    height: 24px;
+    line-height: 20px;
+
+    padding: 4px 6px;
+    vertical-align: middle;
+    text-decoration:none;
+}
+.affair button:hover, .affair button:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: yellow;
+}
